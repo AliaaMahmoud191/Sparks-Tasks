@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread('street.jpg')
+img = cv2.imread('object.jpeg')
 classNames = []
 classFile = 'coco.names'
 with open(classFile, 'rt') as f:
